@@ -1,0 +1,50 @@
+{
+  "gemma": {
+    "How long is the warranty on the standing desk?": 0.75,
+    "Where is my standing desk? Order 5502 was supposed to arrive last week.": 1.0,
+    "My invoice for order 5502 shows $412.50 but I was quoted $380.": 0.875,
+    "The headphones from order 3310 arrived with a cracked case.": 1.0,
+    "Someone else is using my account. I see orders I never placed.": 0.75,
+    "My package says delivered but I never received anything.": 0.875,
+    "I was charged twice for order 3310. Please sort this out.": 0.875,
+    "I need to send back order 6120, it no longer fits my needs.": 0.75,
+    "The vase in order 4471 came in three pieces. Absolutely unacceptable.": 0.75,
+    "I'd like to return the headphones from order 3310, they don't fit my ears.": 0.5,
+    "Order 6120 was cancelled but I still see a pending charge on my card.": 0.625,
+    "Do your running shoes come in a waterproof version?": 0.75,
+    "My order #4471 arrived smashed, I want a refund": 0.75,
+    "I can't log into my account and the password reset email never arrives.": 0.875
+  },
+  "gpt4o": {
+    "How long is the warranty on the standing desk?": 0.375,
+    "Where is my standing desk? Order 5502 was supposed to arrive last week.": 0.75,
+    "My invoice for order 5502 shows $412.50 but I was quoted $380.": 0.8125,
+    "The headphones from order 3310 arrived with a cracked case.": 0.75,
+    "Someone else is using my account. I see orders I never placed.": 0.625,
+    "My package says delivered but I never received anything.": 0.75,
+    "I was charged twice for order 3310. Please sort this out.": 0.75,
+    "I need to send back order 6120, it no longer fits my needs.": 0.75,
+    "The vase in order 4471 came in three pieces. Absolutely unacceptable.": 0.625,
+    "I'd like to return the headphones from order 3310, they don't fit my ears.": 0.625,
+    "Order 6120 was cancelled but I still see a pending charge on my card.": 0.625,
+    "Do your running shoes come in a waterproof version?": 0.625,
+    "My order #4471 arrived smashed, I want a refund": 0.625,
+    "I can't log into my account and the password reset email never arrives.": 0.625
+  },
+  "terra": {
+    "How long is the warranty on the standing desk?": 0.25,
+    "Where is my standing desk? Order 5502 was supposed to arrive last week.": 0.7083333333333334,
+    "My invoice for order 5502 shows $412.50 but I was quoted $380.": 0.7083333333333334,
+    "The headphones from order 3310 arrived with a cracked case.": 0.8333333333333334,
+    "Someone else is using my account. I see orders I never placed.": 0.625,
+    "My package says delivered but I never received anything.": 0.75,
+    "I was charged twice for order 3310. Please sort this out.": 0.75,
+    "I need to send back order 6120, it no longer fits my needs.": 0.625,
+    "The vase in order 4471 came in three pieces. Absolutely unacceptable.": 0.75,
+    "I'd like to return the headphones from order 3310, they don't fit my ears.": 0.4583333333333333,
+    "Order 6120 was cancelled but I still see a pending charge on my card.": 0.5,
+    "Do your running shoes come in a waterproof version?": 0.5833333333333334,
+    "My order #4471 arrived smashed, I want a refund": 0.75,
+    "I can't log into my account and the password reset email never arrives.": 0.7083333333333334
+  }
+}

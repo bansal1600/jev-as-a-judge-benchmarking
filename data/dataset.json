@@ -1,0 +1,86 @@
+[
+  {
+    "ticket": "My order #4471 arrived smashed, I want a refund",
+    "category": "damaged_goods",
+    "team": "refund_team",
+    "needs_lookup": true
+  },
+  {
+    "ticket": "Where is my standing desk? Order 5502 was supposed to arrive last week.",
+    "category": "late_delivery",
+    "team": "logistics_team",
+    "needs_lookup": true
+  },
+  {
+    "ticket": "I was charged twice for order 3310. Please sort this out.",
+    "category": "billing_issue",
+    "team": "billing_team",
+    "needs_lookup": true
+  },
+  {
+    "ticket": "I'd like to return the headphones from order 3310, they don't fit my ears.",
+    "category": "return_request",
+    "team": "refund_team",
+    "needs_lookup": true
+  },
+  {
+    "ticket": "Do your running shoes come in a waterproof version?",
+    "category": "product_question",
+    "team": "none",
+    "needs_lookup": false
+  },
+  {
+    "ticket": "I can't log into my account and the password reset email never arrives.",
+    "category": "account_access",
+    "team": "tier2_support",
+    "needs_lookup": false
+  },
+  {
+    "ticket": "Order 6120 was cancelled but I still see a pending charge on my card.",
+    "category": "billing_issue",
+    "team": "billing_team",
+    "needs_lookup": true
+  },
+  {
+    "ticket": "The vase in order 4471 came in three pieces. Absolutely unacceptable.",
+    "category": "damaged_goods",
+    "team": "refund_team",
+    "needs_lookup": true
+  },
+  {
+    "ticket": "My package says delivered but I never received anything.",
+    "category": "late_delivery",
+    "team": "logistics_team",
+    "needs_lookup": false
+  },
+  {
+    "ticket": "How long is the warranty on the standing desk?",
+    "category": "product_question",
+    "team": "none",
+    "needs_lookup": false
+  },
+  {
+    "ticket": "I need to send back order 6120, it no longer fits my needs.",
+    "category": "return_request",
+    "team": "refund_team",
+    "needs_lookup": true
+  },
+  {
+    "ticket": "Someone else is using my account. I see orders I never placed.",
+    "category": "account_access",
+    "team": "tier2_support",
+    "needs_lookup": false
+  },
+  {
+    "ticket": "My invoice for order 5502 shows $412.50 but I was quoted $380.",
+    "category": "billing_issue",
+    "team": "billing_team",
+    "needs_lookup": true
+  },
+  {
+    "ticket": "The headphones from order 3310 arrived with a cracked case.",
+    "category": "damaged_goods",
+    "team": "refund_team",
+    "needs_lookup": true
+  }
+]

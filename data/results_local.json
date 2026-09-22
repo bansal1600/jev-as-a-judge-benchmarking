@@ -1,0 +1,366 @@
+[
+  {
+    "inputs": {
+      "ticket": "My order #4471 arrived smashed, I want a refund"
+    },
+    "reference": {
+      "category": "damaged_goods",
+      "team": "refund_team",
+      "needs_lookup": true
+    },
+    "outputs": {
+      "reply": "I am so sorry to hear that your order arrived damaged. I understand how frustrating this must be, and I am taking immediate action to process your refund for you. We will get this sorted out right away.",
+      "category": "damaged_goods",
+      "team": "refund_team",
+      "looked_up_order": true,
+      "escalated": true,
+      "num_messages": 6
+    },
+    "scores": {
+      "category_match": 1.0,
+      "escalation_match": 1.0,
+      "tool_discipline": 1.0,
+      "llm_judge": 0.75
+    },
+    "comment": "empathy=5 completeness=3 :: The reply is highly empathetic but lacks specific details about the refund process and timeline.",
+    "seconds": 26.3
+  },
+  {
+    "inputs": {
+      "ticket": "Where is my standing desk? Order 5502 was supposed to arrive last week."
+    },
+    "reference": {
+      "category": "late_delivery",
+      "team": "logistics_team",
+      "needs_lookup": true
+    },
+    "outputs": {
+      "reply": "I understand you are concerned about the status of your standing desk, and I apologize for the delay. I have looked into your order and escalated this to our logistics team right away to find out exactly where your item is. We will get back to you with an update as soon as possible.",
+      "category": "late_delivery",
+      "team": "logistics_team",
+      "looked_up_order": true,
+      "escalated": true,
+      "num_messages": 6
+    },
+    "scores": {
+      "category_match": 1.0,
+      "escalation_match": 1.0,
+      "tool_discipline": 1.0,
+      "llm_judge": 1.0
+    },
+    "comment": "empathy=5 completeness=5 :: The reply effectively validates the customer's concern and clearly outlines the immediate steps taken.",
+    "seconds": 20.2
+  },
+  {
+    "inputs": {
+      "ticket": "I was charged twice for order 3310. Please sort this out."
+    },
+    "reference": {
+      "category": "billing_issue",
+      "team": "billing_team",
+      "needs_lookup": true
+    },
+    "outputs": {
+      "reply": "I understand that you were charged twice for your order, and I apologize for this frustrating experience. I am escalating this immediately to our billing team to investigate the double charge and get this resolved for you quickly.",
+      "category": "billing_issue",
+      "team": "billing_team",
+      "looked_up_order": true,
+      "escalated": true,
+      "num_messages": 6
+    },
+    "scores": {
+      "category_match": 1.0,
+      "escalation_match": 1.0,
+      "tool_discipline": 1.0,
+      "llm_judge": 0.875
+    },
+    "comment": "empathy=4 completeness=5 :: The reply is highly complete and provides a clear action plan.",
+    "seconds": 25.7
+  },
+  {
+    "inputs": {
+      "ticket": "I'd like to return the headphones from order 3310, they don't fit my ears."
+    },
+    "reference": {
+      "category": "return_request",
+      "team": "refund_team",
+      "needs_lookup": true
+    },
+    "outputs": {
+      "reply": "I understand that you need to return your headphones because they don't fit properly. I have initiated the necessary steps to process your return request for order 3310. We will get this sorted out for you right away.",
+      "category": "return_request",
+      "team": "refund_team",
+      "looked_up_order": true,
+      "escalated": true,
+      "num_messages": 6
+    },
+    "scores": {
+      "category_match": 1.0,
+      "escalation_match": 1.0,
+      "tool_discipline": 1.0,
+      "llm_judge": 0.5
+    },
+    "comment": "empathy=3 completeness=3 :: The reply is functional but lacks warmth and necessary follow-up details.",
+    "seconds": 21.8
+  },
+  {
+    "inputs": {
+      "ticket": "Do your running shoes come in a waterproof version?"
+    },
+    "reference": {
+      "category": "product_question",
+      "team": "none",
+      "needs_lookup": false
+    },
+    "outputs": {
+      "reply": "I understand you're looking for information about waterproof running shoes. I will check with our product team to see if we offer that option for you. We appreciate you reaching out, and I'll get back to you shortly with an answer!",
+      "category": "product_question",
+      "team": "none",
+      "looked_up_order": false,
+      "escalated": false,
+      "num_messages": 5
+    },
+    "scores": {
+      "category_match": 1.0,
+      "escalation_match": 1.0,
+      "tool_discipline": 1.0,
+      "llm_judge": 0.75
+    },
+    "comment": "empathy=3 completeness=5 :: The reply is complete in outlining the next steps, but the empathy is generic.",
+    "seconds": 13.5
+  },
+  {
+    "inputs": {
+      "ticket": "I can't log into my account and the password reset email never arrives."
+    },
+    "reference": {
+      "category": "account_access",
+      "team": "tier2_support",
+      "needs_lookup": false
+    },
+    "outputs": {
+      "reply": "I understand how frustrating it is when you can't access your account or receive important emails. I have escalated this issue to our Tier 2 support team right away to help resolve your login and password reset problems quickly.",
+      "category": "account_access",
+      "team": "tier2_support",
+      "looked_up_order": false,
+      "escalated": true,
+      "num_messages": 5
+    },
+    "scores": {
+      "category_match": 1.0,
+      "escalation_match": 1.0,
+      "tool_discipline": 1.0,
+      "llm_judge": 0.875
+    },
+    "comment": "empathy=4 completeness=5 :: The reply clearly states the action taken and provides a solid resolution path.",
+    "seconds": 13.1
+  },
+  {
+    "inputs": {
+      "ticket": "Order 6120 was cancelled but I still see a pending charge on my card."
+    },
+    "reference": {
+      "category": "billing_issue",
+      "team": "billing_team",
+      "needs_lookup": true
+    },
+    "outputs": {
+      "reply": "I understand you are seeing a pending charge for an order that has been cancelled. I have looked into this and escalated it to our billing team to resolve the charge discrepancy for you right away. We will get this sorted out quickly.",
+      "category": "billing_issue",
+      "team": "billing_team",
+      "looked_up_order": true,
+      "escalated": true,
+      "num_messages": 6
+    },
+    "scores": {
+      "category_match": 1.0,
+      "escalation_match": 1.0,
+      "tool_discipline": 1.0,
+      "llm_judge": 0.625
+    },
+    "comment": "empathy=3 completeness=4 :: The reply is complete and clear, but the empathy is functional rather than warm.",
+    "seconds": 14.2
+  },
+  {
+    "inputs": {
+      "ticket": "The vase in order 4471 came in three pieces. Absolutely unacceptable."
+    },
+    "reference": {
+      "category": "damaged_goods",
+      "team": "refund_team",
+      "needs_lookup": true
+    },
+    "outputs": {
+      "reply": "I am so sorry to hear that your vase arrived damaged and in pieces; that is certainly unacceptable. I have initiated the necessary steps to process a resolution for you immediately. We will get this sorted out right away.",
+      "category": "damaged_goods",
+      "team": "refund_team",
+      "looked_up_order": true,
+      "escalated": true,
+      "num_messages": 6
+    },
+    "scores": {
+      "category_match": 1.0,
+      "escalation_match": 1.0,
+      "tool_discipline": 1.0,
+      "llm_judge": 0.75
+    },
+    "comment": "empathy=5 completeness=3 :: The reply shows strong empathy but lacks specific details about the resolution process.",
+    "seconds": 17.8
+  },
+  {
+    "inputs": {
+      "ticket": "My package says delivered but I never received anything."
+    },
+    "reference": {
+      "category": "late_delivery",
+      "team": "logistics_team",
+      "needs_lookup": false
+    },
+    "outputs": {
+      "reply": "I understand how frustrating it is when your package is marked as delivered but you haven't received it yet. I am escalating this immediately to our logistics team to investigate the status of your delivery. We will get this sorted out for you as quickly as possible.",
+      "category": "late_delivery",
+      "team": "logistics_team",
+      "looked_up_order": false,
+      "escalated": true,
+      "num_messages": 5
+    },
+    "scores": {
+      "category_match": 1.0,
+      "escalation_match": 1.0,
+      "tool_discipline": 1.0,
+      "llm_judge": 0.875
+    },
+    "comment": "empathy=5 completeness=4 :: The reply shows strong empathy but lacks a specific timeline for resolution.",
+    "seconds": 13.1
+  },
+  {
+    "inputs": {
+      "ticket": "How long is the warranty on the standing desk?"
+    },
+    "reference": {
+      "category": "product_question",
+      "team": "none",
+      "needs_lookup": false
+    },
+    "outputs": {
+      "reply": "I understand you're looking for information about the warranty on the standing desk. I will check this for you right away and get back to you with the details shortly.",
+      "category": "product_question",
+      "team": "none",
+      "looked_up_order": false,
+      "escalated": false,
+      "num_messages": 5
+    },
+    "scores": {
+      "category_match": 1.0,
+      "escalation_match": 1.0,
+      "tool_discipline": 1.0,
+      "llm_judge": 0.75
+    },
+    "comment": "empathy=3 completeness=5 :: The reply is complete in setting expectations but lacks genuine warmth or deep empathy.",
+    "seconds": 11.4
+  },
+  {
+    "inputs": {
+      "ticket": "I need to send back order 6120, it no longer fits my needs."
+    },
+    "reference": {
+      "category": "return_request",
+      "team": "refund_team",
+      "needs_lookup": true
+    },
+    "outputs": {
+      "reply": "I understand you need to return order 6120 because it no longer suits your needs. I have initiated the process for a return request and escalated this to our refund team to assist you further. We will be in touch shortly with the next steps.",
+      "category": "return_request",
+      "team": "refund_team",
+      "looked_up_order": true,
+      "escalated": true,
+      "num_messages": 6
+    },
+    "scores": {
+      "category_match": 1.0,
+      "escalation_match": 1.0,
+      "tool_discipline": 1.0,
+      "llm_judge": 0.75
+    },
+    "comment": "empathy=3 completeness=5 :: The reply is complete and actionable, though the empathy is generic.",
+    "seconds": 19.0
+  },
+  {
+    "inputs": {
+      "ticket": "Someone else is using my account. I see orders I never placed."
+    },
+    "reference": {
+      "category": "account_access",
+      "team": "tier2_support",
+      "needs_lookup": false
+    },
+    "outputs": {
+      "reply": "I understand this is a very concerning situation, and I apologize for the stress this security issue is causing you. We will immediately escalate this to our specialized team to investigate unauthorized account access and secure your information.",
+      "category": "account_access",
+      "team": "tier2_support",
+      "looked_up_order": false,
+      "escalated": true,
+      "num_messages": 5
+    },
+    "scores": {
+      "category_match": 1.0,
+      "escalation_match": 1.0,
+      "tool_discipline": 1.0,
+      "llm_judge": 0.875
+    },
+    "comment": "empathy=4 completeness=5 :: The reply is highly complete and provides a clear action plan.",
+    "seconds": 12.2
+  },
+  {
+    "inputs": {
+      "ticket": "My invoice for order 5502 shows $412.50 but I was quoted $380."
+    },
+    "reference": {
+      "category": "billing_issue",
+      "team": "billing_team",
+      "needs_lookup": true
+    },
+    "outputs": {
+      "reply": "I understand that you are seeing a discrepancy on your invoice, and I apologize for any confusion this has caused. I am escalating this immediately to our billing team to investigate the price difference between your quote and the final invoice. We will get this sorted out for you as quickly as possible.",
+      "category": "billing_issue",
+      "team": "billing_team",
+      "looked_up_order": true,
+      "escalated": true,
+      "num_messages": 6
+    },
+    "scores": {
+      "category_match": 1.0,
+      "escalation_match": 1.0,
+      "tool_discipline": 1.0,
+      "llm_judge": 0.875
+    },
+    "comment": "empathy=4 completeness=5 :: The reply effectively validates the customer's issue and clearly outlines the immediate action taken.",
+    "seconds": 18.2
+  },
+  {
+    "inputs": {
+      "ticket": "The headphones from order 3310 arrived with a cracked case."
+    },
+    "reference": {
+      "category": "damaged_goods",
+      "team": "refund_team",
+      "needs_lookup": true
+    },
+    "outputs": {
+      "reply": "I am so sorry to hear that your headphones arrived with a cracked case. I understand how frustrating this must be, and I want to get this resolved for you right away. I have escalated this issue to our refund team to process a replacement or refund for you.",
+      "category": "damaged_goods",
+      "team": "refund_team",
+      "looked_up_order": true,
+      "escalated": true,
+      "num_messages": 6
+    },
+    "scores": {
+      "category_match": 1.0,
+      "escalation_match": 1.0,
+      "tool_discipline": 1.0,
+      "llm_judge": 1.0
+    },
+    "comment": "empathy=5 completeness=5 :: The reply is highly empathetic and clearly outlines the next steps for resolution.",
+    "seconds": 17.6
+  }
+]

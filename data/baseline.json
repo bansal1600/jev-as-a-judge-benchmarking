@@ -1,0 +1,131 @@
+{
+  "samples": 56,
+  "experiments": [
+    "baseline-A-a92eb328",
+    "baseline-B-4d344b46"
+  ],
+  "routing_flips": 0,
+  "per_example": {
+    "How long is the warranty on the standing desk?": {
+      "n": 4,
+      "mean": 0.75,
+      "sd": 0.0,
+      "min": 0.75,
+      "max": 0.75,
+      "unique_replies": 1
+    },
+    "Where is my standing desk? Order 5502 was supposed to arrive last week.": {
+      "n": 4,
+      "mean": 1.0,
+      "sd": 0.0,
+      "min": 1.0,
+      "max": 1.0,
+      "unique_replies": 1
+    },
+    "My invoice for order 5502 shows $412.50 but I was quoted $380.": {
+      "n": 4,
+      "mean": 0.875,
+      "sd": 0.0,
+      "min": 0.875,
+      "max": 0.875,
+      "unique_replies": 1
+    },
+    "The headphones from order 3310 arrived with a cracked case.": {
+      "n": 4,
+      "mean": 1.0,
+      "sd": 0.0,
+      "min": 1.0,
+      "max": 1.0,
+      "unique_replies": 1
+    },
+    "Someone else is using my account. I see orders I never placed.": {
+      "n": 4,
+      "mean": 0.75,
+      "sd": 0.0,
+      "min": 0.75,
+      "max": 0.75,
+      "unique_replies": 1
+    },
+    "My package says delivered but I never received anything.": {
+      "n": 4,
+      "mean": 0.875,
+      "sd": 0.0,
+      "min": 0.875,
+      "max": 0.875,
+      "unique_replies": 1
+    },
+    "I was charged twice for order 3310. Please sort this out.": {
+      "n": 4,
+      "mean": 0.875,
+      "sd": 0.0,
+      "min": 0.875,
+      "max": 0.875,
+      "unique_replies": 1
+    },
+    "I need to send back order 6120, it no longer fits my needs.": {
+      "n": 4,
+      "mean": 0.75,
+      "sd": 0.0,
+      "min": 0.75,
+      "max": 0.75,
+      "unique_replies": 1
+    },
+    "The vase in order 4471 came in three pieces. Absolutely unacceptable.": {
+      "n": 4,
+      "mean": 0.75,
+      "sd": 0.0,
+      "min": 0.75,
+      "max": 0.75,
+      "unique_replies": 1
+    },
+    "I'd like to return the headphones from order 3310, they don't fit my ears.": {
+      "n": 4,
+      "mean": 0.5,
+      "sd": 0.0,
+      "min": 0.5,
+      "max": 0.5,
+      "unique_replies": 1
+    },
+    "Order 6120 was cancelled but I still see a pending charge on my card.": {
+      "n": 4,
+      "mean": 0.625,
+      "sd": 0.0,
+      "min": 0.625,
+      "max": 0.625,
+      "unique_replies": 1
+    },
+    "Do your running shoes come in a waterproof version?": {
+      "n": 4,
+      "mean": 0.75,
+      "sd": 0.0,
+      "min": 0.75,
+      "max": 0.75,
+      "unique_replies": 1
+    },
+    "My order #4471 arrived smashed, I want a refund": {
+      "n": 4,
+      "mean": 0.75,
+      "sd": 0.0,
+      "min": 0.75,
+      "max": 0.75,
+      "unique_replies": 1
+    },
+    "I can't log into my account and the password reset email never arrives.": {
+      "n": 4,
+      "mean": 0.875,
+      "sd": 0.0,
+      "min": 0.875,
+      "max": 0.875,
+      "unique_replies": 1
+    }
+  },
+  "virtual_runs": {
+    "baseline-A-a92eb328#0": 0.7946428571428571,
+    "baseline-A-a92eb328#1": 0.7946428571428571,
+    "baseline-B-4d344b46#2": 0.7946428571428571,
+    "baseline-B-4d344b46#3": 0.7946428571428571
+  },
+  "aggregate_mean": 0.7946428571428571,
+  "aggregate_sd_pp": 0.0,
+  "min_detectable_effect_pp": 0.0
+}
